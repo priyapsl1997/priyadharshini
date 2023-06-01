@@ -1,0 +1,60 @@
+.main
+{
+
+width: 1500px;
+height: 7700px;
+border-style: dotted ;
+border-color: rgb(255, 0, 0);
+}
+.first{
+width: 1500px;
+height: 70px;
+border-style: dotted ;
+border-color: blue;
+
+}
+.logo{
+  float: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 20PX;
+  float:right;
+  text-decoration: yellow;
+  
+}
+
+li {
+  display: inline;
+  
+}
+  
+
+
+  .two{
+    width: 1500px;
+    height: 500px;
+    border-style: dotted ;
+    border-color: rebeccapurple;
+    padding: 10px ;
+    background-color: aliceblue;
+   
+}
+.twoA{
+    width: 700px;
+    height: 300px;
+    border-style: dashed;
+    display: inline-block;
+    padding-top: 150px;
+    position: relative;
+}
+.twoB{
+    width: 700px;
+    height: 400px;
+    border-style: dashed;
+    display: inline-block;
+    padding-top: 30px;
+    margin-top: 10px;
+    position: absolute;
+    }

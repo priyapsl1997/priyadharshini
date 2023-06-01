@@ -1,0 +1,65 @@
+
+
+@font-face {
+    font-family: "pd";
+    src: url(darlington-font/DarlingtonDemo-z8xjG.ttf);
+    
+}
+.tulip{
+    font-family: "pd";
+    text-align: center;
+    font-size: 60PX;
+}
+.priya{
+    width:1010;
+    height: 700px;
+   
+}
+.header{
+    width:1010;
+    height: 150px;
+   
+}
+.content{
+    width:1010;
+    height: 550px;
+    
+    
+}
+ 
+
+.L{
+    width: 750px;
+    height: 220px;
+   
+    display: inline-block;
+    text-align: justify;
+    padding: left 5px;
+    padding-right: 7px;
+}
+
+
+.R{
+    width: 740px;;
+    height: 220px;
+   
+    display: inline-block;
+    text-align: justify;
+}
+b1{
+    width: 750px;
+    height: 200px;
+   
+    display: inline-block;
+    text-align: justify;
+    padding: left 5px;
+    padding-right: 7px;
+}
+b2{
+    width: 740px;;
+    height: 200px;
+   
+    display: inline-block;
+    text-align: justify;
+
+}

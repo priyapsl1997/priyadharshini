@@ -1,0 +1,33 @@
+@font-face {
+    font-family: session3;
+    src: url(glowbloom-font/GlowbloompersonaluseItalic-RpzjA.otf);
+}
+
+body{
+    
+    background-image: url(t1.webp);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    text-align: justify;
+    width: 70%;
+    height: 30%;
+    font-size: 18px;
+    background-position: center;
+    background-clip: border-box;
+    
+    padding-left: 55px;
+   
+
+}
+.heading{
+     width: 100px;
+     height: 100px;
+     text-align: center;
+     padding-left: 300px;
+}
+
+    
+    
+p{
+    padding-left: 300px;
+}
