@@ -1,0 +1,51 @@
+.flexcontainer{
+    width: auto;
+    height: 1000px;
+    /* background-color: aquamarine; */
+    display: flex;
+    /* flex-wrap: nowrap;
+    -ms-flex-align: center; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    
+}
+.navtag{
+    width: auto;
+    height: 100px;
+
+    
+    
+}
+.heading{
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 500px;
+    
+}
+
+.box{
+    background-color: #f1f1f1;
+  width: 490px;
+  height: 400px;
+    margin: 10px;   
+  /* text-align: center;
+  line-height: 75px;
+  font-size: 30px; */
+  background-color: black;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0,0, 0.5);
+ 
+  
+  
+}
+.box:hover{
+    transform: scale(1.1);  
+    transition: 0.5sec ease; 
+    
+    /* filter: grayscale(0%); */
+   
+}
+
+    
