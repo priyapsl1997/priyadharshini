@@ -1,0 +1,325 @@
+.mainframe{
+    width:1400px;
+    height:1800px;
+    /* border: 2px solid blue;  */
+    display: inline-block;
+    position: relative;
+    
+}
+/* *{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+} */
+.subframe1{
+    width:1500px;
+    height:700px;
+    display: inline-block;
+    position: absolute; 
+    margin-bottom: 500px;
+    
+    
+    }
+    .header{
+        width: 1500px;
+        height:100vh;
+       
+        position: absolute;
+        background-image: linear-gradient(0,0,0,0.6);
+background-size:cover;
+background-position: center;
+
+    }
+    .header img{
+       margin-right:5px;
+       margin-top: 10px;
+        margin-bottom:200px;
+        position: absolute;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 10px;
+        margin-left: 310px;
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+     padding:10px 5px; 
+        /* margin-left: 100px; */
+        margin: 0 15px;
+
+    }
+    nav ul li a{
+        color: #997950;
+        font-weight:bolder;
+        
+        text-decoration: none;
+    }
+    nav ul li a:hover{
+color:antiquewhite;
+transition: 0.3s;
+    }
+   nav button{
+        border: none;
+        background-color: #80471c ;
+        border-radius: 30px;
+        color:black;
+        font-size: 15px;
+        font-weight: bold;
+        transition: 0.4s;
+        margin-right: 380px ;
+        line-height: 25px;
+    }
+    
+@font-face {
+    font-family: "ppp";
+    src: url(NewYork\ PERSONAL\ USE.otf);
+}
+
+.s1{
+    width: 600px;
+    height: 500px;
+    font-family: "ppp";
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 100px;
+   
+    /* box-shadow: 0 4px 6px -1px; */
+    border-radius: 25px;
+}
+.subframe2{
+    width: 1500px;
+    height:600px;
+   
+    background-color: rgba(0,0, 0, 0.8);
+    position: absolute;
+    margin-top: 700px;
+    
+
+
+}
+/* label{
+    
+} */
+.success {background-color: #956948;color: black;
+    padding: 8px;
+    font-family: Arial;
+margin-top: 100px;
+margin-left: 100px;
+position: absolute;
+font-size: 20px;}
+
+
+.imgg { 
+    width: 600px;
+    height: 500px;
+    margin-left: 700px;
+    position: absolute;
+    
+}
+.flx{
+    display: flex;
+    width: 1500px;
+    height: 300px;
+    position: absolute;
+    align-content: space-between;
+    margin-top: 400PX;
+    margin-left: 50px;
+    align-content: center;
+}
+.box{
+    margin:0 20px;
+    width:300px;
+    height: 300px;
+    background-color: #e4dcd5;
+   font-family: "ppp";
+    
+    
+}
+.st ul li{
+    font-size: 12px; 
+    line-height: 25px;
+    font-family: "ppp";
+}
+.des ul li{
+    font-size: 12px; 
+    line-height: 25px;
+    font-family: "ppp";
+}
+.subframe3{
+    width: 1500px;
+    height: 750px;
+    margin-top: 1425px;
+    
+    position:absolute;
+
+   
+    /* border-top-width: 50px;
+ border-bottom-width:50px;
+ border-left-width: 100px;
+  border-right-width: 100px; */
+
+}
+.s3{
+    width: 1500px;
+    height: 700px;
+ /* background-color: yellow;  */
+   /* background-color: rgb(0, 0, 0,0.7);  */
+    /* border: 2px solid palevioletred; */
+    /* background-color: #371d10;
+   position: absolute; */
+   position: absolute;
+   margin-bottom: 25px;
+ 
+   
+ 
+}
+.ribbon-2 {
+    --f: 10px; /* control the folded part*/
+    --r: 15px; /* control the ribbon shape */
+    --t: 10px; /* the top offset */
+    
+    position: absolute;
+    inset: var(--t) calc(-1*var(--f)) auto auto;
+    padding: 0 10px var(--f) calc(10px + var(--r));
+    clip-path: 
+      polygon(0 0,100% 0,100% calc(100% - var(--f)),calc(100% - var(--f)) 100%,
+        calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)),
+        var(--r) calc(50% - var(--f)/2));
+    background: #BD1550;
+    box-shadow: 0 calc(-1*var(--f)) 0 inset #0005;
+  }
+  .ribbon-2 {
+    --f: 10px; /* control the folded part*/
+    --r: 25px; /* control the ribbon shape */
+    --t: 20px; /* the top offset */
+    height:50px;
+    position: absolute;
+    inset: var(--t) calc(-1*var(--f)) auto auto;
+    padding: 0 30px var(--f) calc(30px + var(--r));
+    clip-path: 
+      polygon(0 0,100% 0,100% calc(100% - var(--f)),calc(100% - var(--f)) 100%,
+        calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)),
+        var(--r) calc(50% - var(--f)/2));
+    background: #997950;
+    box-shadow: 0 calc(-1*var(--f)) 0 inset #0005;
+    font-size: 30px;
+    font-family: "ppp";
+    padding-top: 15px;
+    color: #c3ad91;
+    font-weight: 400;
+  }
+  .boxx {
+    width:1490px;
+    height:900px;
+    margin:50px auto 0;
+     /* background:#997950;  */
+    position:relative;
+    margin-top: 1450px;
+    margin-right: 80px;
+     position: absolute;
+    display: flex;
+     /* background-color: #c3ad91; */
+     /* border: 2px solid #997950; */
+     /* background-color:black;
+     opacity: 0.8; */
+  }
+  .flexcontainer{
+    width: auto;
+    height: 700px;
+     /* background-color: aquamarine;  */
+    display: flex;
+    /* flex-wrap: nowrap;
+    -ms-flex-align: center; */
+    /* justify-content: space-between; */
+     justify-content: space-around; 
+    margin-top: 1500px;
+    position: absolute;
+    margin-left: 390px;
+    
+  }
+  
+
+    .boxx1{
+       
+      width: 300px;
+      height: 250px;
+        margin: 25px;  
+        margin-top:40px;
+        
+        border: 2px solid #b0936c;  
+      /* text-align: center;
+      line-height: 75px;
+      font-size: 30px; */
+       /* background-color: #83512b;  */
+      cursor: pointer;
+      box-shadow: 0 4px 6px -1px rgba(0, 0,0, 0.5);
+      border-bottom-width: 60px;  
+      
+          }
+     
+     
+       .boxx1:hover{
+        transform: scale(1.1);  
+        transition: 0.5sec ease; 
+        
+        
+       
+        /* filter: grayscale(0%); */
+       
+    }
+    .hide{
+        display:none;
+    }
+   .ord{
+    width: 350px;
+    height: 500px;
+    /* background-color: #BD1550; */
+    position: absolute;
+    margin-right: 1400px;
+    margin-top: 100px;
+    color:whitesmoke;
+    line-height: 70px;
+   }
+
+   .contact{
+width: 1499px;
+height: 870px;
+/* border: 2px solid blue; */
+position: absolute;
+  margin-top:2320px;
+margin-right: 100px;
+text-transform: uppercase;
+font-family: "ppp";
+font-size: 30px;
+background-image: url(medium-shot-woman-working-bakery.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.8;
+ }   
+.cntr{
+    width: 550px;
+height: 550px;
+ border: 2px solid #b0936c; 
+position: absolute;
+margin-top:2390px;
+margin-right: 100px;
+margin-left: 460px;
+display: flex;
+flex-direction: column;
+align-content: space-between;
+/* background-color: #956948; */
+}      
+.sm{
+    width:1500px;
+    height: 50px;
+    position: absolute;
+    background-color:#b0936c;
+    margin-top: 150px;
+   
+}
